@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Hello World !');
+    return view(' I hate branches !!!!');
 });
