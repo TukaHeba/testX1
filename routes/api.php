@@ -19,6 +19,11 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
+Route::get('faeza');
+
+Route::get('batool');
+
+
 Route::post("/welcome",function (){
    return "Hi guys, I`m Rima Kiwan";
 });
